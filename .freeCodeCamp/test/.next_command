@@ -981,3 +981,13 @@ ssh -T git@github.com
 git push origin master
 git status
 git add .
+git commit -m "initial commit"
+git push origin master
+git branch
+ls --color=auto
+git branch -r
+git pull origin master
+git push origin master
+git main
+git checkout main
+git add .
