@@ -968,3 +968,16 @@ pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 git init
 git remote add origin git@github.com:Olivia-it/fcc-universedb_postresql.git
 git add .
+git commit -m "initial commit"
+git push origin master
+git remote set-url origin git@github.com:Olivia-it/fcc-universedb_postresql.git
+git push origin master
+ls --color=auto -al ~/.ssh
+ssh-keygen -t rsa -b 4096 -C "olivia.gie@outlook.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git push origin master
+git status
+git add .
